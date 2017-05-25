@@ -3,7 +3,7 @@
 Summary:	Empirical analysis of digital gene expression data in R
 Name:		R-%{packname}
 Version:	3.4.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Applications/Engineering
 Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
