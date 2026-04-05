@@ -3,7 +3,7 @@
 Summary:	Empirical analysis of digital gene expression data in R
 Name:		R-%{packname}
 Version:	4.8.2
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Applications/Engineering
 Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
@@ -50,6 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/R/library/%{packname}/NAMESPACE
 %{_libdir}/R/library/%{packname}/R/
 %{_libdir}/R/library/%{packname}/help/
-%{_libdir}/R/library/%{packname}/data
 %dir %{_libdir}/R/library/%{packname}/libs
 %attr(755,root,root) %{_libdir}/R/library/%{packname}/libs/edgeR.so
