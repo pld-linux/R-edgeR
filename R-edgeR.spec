@@ -2,13 +2,13 @@
 
 Summary:	Empirical analysis of digital gene expression data in R
 Name:		R-%{packname}
-Version:	3.4.0
-Release:	3
+Version:	4.8.2
+Release:	1
 License:	LGPL
 Group:		Applications/Engineering
-Source0:	http://www.bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
-# Source0-md5:	e683382eb9d098346ed0b7b0f80b1e5d
-URL:		http://www.bioconductor.org/packages/release/bioc/html/edgeR.html
+Source0:	https://bioconductor.org/packages/release/bioc/src/contrib/%{packname}_%{version}.tar.gz
+# Source0-md5:	5fde3f422aba2f92441e604eefb6cc55
+URL:		https://bioconductor.org/packages/release/bioc/html/edgeR.html
 BuildRequires:	R-limma
 BuildRequires:	R
 BuildRequires:	texlive-latex
